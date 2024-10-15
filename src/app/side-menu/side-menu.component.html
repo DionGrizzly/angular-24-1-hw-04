@@ -1,0 +1,9 @@
+<div class="side-menu">
+    <p><b>ID: </b>{{ product.id }}</p>
+    <p><b>Product name: </b>{{ product.name }}</p>
+    <p><b>Price: </b><app-product-price [price]="product.price"></app-product-price></p>
+    <p><b>Category: </b>{{ product.category }}</p>
+    <p><b>Description: </b>{{ product.description }}</p>
+    <p><b>In stock: </b>{{ product.inStock ? 'Yes' : 'No' }}</p>
+    <p><b>Rating: </b>{{ product.rating }}</p>
+</div>

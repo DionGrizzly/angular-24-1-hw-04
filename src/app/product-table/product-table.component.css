@@ -1,0 +1,12 @@
+#product-table {
+  border-collapse: collapse;
+}
+#product-table th,
+#product-table td {
+  border: 2px solid #ddd;
+  padding: 4px 8px;
+  width: 200px;
+}
+.selected-row {
+  background-color: #f9f9f9;
+}
